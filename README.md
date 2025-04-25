@@ -8,11 +8,6 @@ B kateqoriyası: Daha az əhəmiyyət kəsb edən məhsullar, lakin buna baxmaya
 
 C kateqoriyası: Daha az əhəmiyyət kəsb edən və yalnız ən sadə nəzarət səviyyəsini tələb edən məhsullar.
 
-# Harada istifadə olunur?
-Anbar idarəetməsi
-
-Satış və məhsul analizi
-
-Təchizat zənciri optimallaşdırması
-
-İşçi performansı və vaxtın idarə edilməsi
+Exceldə ABC analizi apardım. Məhsulların illik faiz bölgüsü və kommulativ faiz bölgüsünü hesabladım. Pareto Prinsipinə (80/20 qaydası) görə əgər məhsulun kommulativ faizi 80%-dən azdırsa , deməli o ən vacib məhsuldur → A kateqoriyaya aiddir. Əgər 80%-95% arasındadırsa, bu orta vaciblikdə məhsuldur → B kateqoriyaya aiddir
+Əgər 95%-dən çoxdursa, deməli bu məhsul az əhəmiyyət kəsb edən məhsuldur → C kateqoriyaya aiddir
+# =IFS(F2<0,8;"A";F2<0,95;"B";TRUE;"C") 
