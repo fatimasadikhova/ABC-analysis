@@ -1,4 +1,5 @@
 # ABC Analysis
+![ABC Analysis](https://github.com/<username>/<repo>/blob/main/images/abc_chart.png?raw=true)
 
 ABC Analysis is a simple yet powerful method used to classify inventory or products based on their value. It is essential for companies and analysts to allocate resources effectively and make informed decisions.
 
